@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <rss version="2.0">
   <channel>
-    <title>My Blog</title>
+    <title>Ayiko's Blog</title>
     <link>/</link>
-    <description>My own blog about programming and whatnot.</description>
+    <description>Ayiko's blog about programming and whatnot.</description>
     <language>en-us</language>
     <pubDate>Fri, 30 Oct 2020 13:25:07 EAT</pubDate>
     <lastBuildDate>Fri, 30 Oct 2020 13:25:07 EAT</lastBuildDate>
@@ -14,8 +14,8 @@
       <title>Hello, World</title>
       <link>/hello-world.html</link>
       <description><![CDATA[<div><span class="date">2020/10/30</span><h2>Hello, Saucy World</h2><p>I like computers. I love secrets.<br />
-   I particularly don't like conventional truths though.<br /><p><i>A conventional truth can be important—it’s essential to learn elementary mathematics,
-   for example—but it won’t give you an edge. It’s not a secret.</i></p></p></div>]]></description>
+   I particularly don't like conventional truths though.<br /><blockquote><em>A conventional truth can be important—it’s essential to learn elementary mathematics,
+   for example—but it won’t give you an edge. It’s not a secret.</em></blockquote></p></div>]]></description>
       <pubDate>Fri, 30 Oct 2020 13:25:07 EAT</pubDate>
       <guid>/hello-world.html</guid>
     </item>
