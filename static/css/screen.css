@@ -87,8 +87,9 @@ article a {
 
 article span.date {
     font-family: monospace;
-    font-size: 0.9em;
+    font-size: 1.0em;
     color: #888;
+    font-style: italic;
 }
 
 article h2 {
@@ -109,7 +110,7 @@ article h3 {
 article p {
     margin: 1.2em 0 0.4em;
     line-height: 1.4em;
-    font-size: 0.9em;
+    font-size: 1.1em;
     color: #333;
     font-family: Trebuchet MS, Arial;
 }
@@ -119,7 +120,7 @@ article ul,
 article ol {
     margin: 1.2em 0 0.4em 1.5em;
     color: #333;
-    font-size: 0.9em;
+    font-size: 1.0em;
     line-height: 1.4em;
 }
 
