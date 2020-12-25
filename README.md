@@ -1,3 +1,2 @@
-# lgmfred.github.io
-## Ayiko's Awful Opinions
+# Ayiko's Awful Opinions
 
