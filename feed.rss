@@ -2,7 +2,7 @@
 <rss version="2.0">
   <channel>
     <title>Ayiko’s Awful Opinions</title>
-    <link>/</link>
+    <link>https://lgmfred.github.io/</link>
     <description>Ayiko’s blog about software and whatnot.</description>
     <language>en-us</language>
     <pubDate>Thu, 11 Mar 2021 03:00:33 EAT</pubDate>
@@ -12,7 +12,7 @@
     
     <item>
       <title>Yet Another Advice for Engineering College Students</title>
-      <link>/yet-another-advice-for-engineering-college-students.html</link>
+      <link>https://lgmfred.github.io/yet-another-advice-for-engineering-college-students.html</link>
       <description><![CDATA[<div><span class="date">11th Mar 2021</span><h2>Yet Another Advice for Engineering College Students</h2><p>Hi. Today (or whatever day you are reading this—even tomorrow), 
 I’m going to give tech students advice. Chances are you want to get 
 the right advice as a student. (Unless you fear that I would hate 
@@ -114,18 +114,18 @@ turning down jobs at <a href="https://mtn.co.ug">MTN</a> because you want
 your own office with a door, and other stupid life decisions, but they won’t 
 be my fault. I told you not to listen to me.</p></div></p></p></div>]]></description>
       <pubDate>Thu, 11 Mar 2021 03:00:33 EAT</pubDate>
-      <guid>/yet-another-advice-for-engineering-college-students.html</guid>
+      <guid>https://lgmfred.github.io/yet-another-advice-for-engineering-college-students.html</guid>
     </item>
     
     <item>
       <title>Hello, Saucy World!</title>
-      <link>/hello-saucy-world.html</link>
+      <link>https://lgmfred.github.io/hello-saucy-world.html</link>
       <description><![CDATA[<div><span class="date">30th Oct 2020</span><h2>Hello, Saucy World!</h2><img class="left" src="/static/img/hello-world.png" width="140" height="90" style="margin-top: 1.2em" title="Let’s get blogy, blogy, I wanna get blogy..." /><p style="margin-top: 2.3em;">
    Trying to solve more problems than I cause.<br />
    When I’m happy, I love technology. Sometimes I feel sad.
 </p></div>]]></description>
       <pubDate>Fri, 30 Oct 2020 13:25:07 EAT</pubDate>
-      <guid>/hello-saucy-world.html</guid>
+      <guid>https://lgmfred.github.io/hello-saucy-world.html</guid>
     </item>
     
  
