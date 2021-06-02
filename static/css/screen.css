@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro"|Lora:700italic');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Raleway:700,900|Ubuntu+Mono:400');
 
 /* CSS Reset courtesy of http:///meyerweb.com/eric/tools/css/reset/ */
 /* v1.0 | 20080212 */
@@ -36,13 +36,14 @@ table { border-collapse: collapse; border-spacing: 0; }
 html {
     text-align: center;
     color: #333;
-	font-family: "PT Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial;
+	font-family:"Source Sans Pro",Helvetica,Arial,sans-serif;
 }
+
 body {
     margin: 0 auto;
     text-align: center;
-    width: 55%; 
-    background: #fff;
+    width: 50%; 
+	background-color: #fff;
 }
 
 header, footer, article {
@@ -75,6 +76,7 @@ article {
     margin: 0 auto;
     padding: 2em 50px 0.5em;
     color: #666;
+    max-width: 600px;
 }
 
 article a {
@@ -103,6 +105,7 @@ article h3 {
     color: #232323;
     font-family: 'Lora', Trebuchet MS, Arial;
 }
+
 article h4 {
     margin: 1.2em 0 0.4em;
     font-size: 1.4em;
@@ -118,10 +121,10 @@ article h5 {
 
 article p {
     margin: 1.2em 0 0.4em;
-    line-height: 1.4em;
+    line-height: 1.5;
     font-size: 20px;
     color: #333;
-	font-family: "PT Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial;
+	font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
 article div.syntaxhighlighter {
@@ -184,7 +187,6 @@ article div.note h3 {
 	border-bottom: 1px solid #ddd;
 }
 
-
 article div.note p {
 	margin: 0.5em 0 0.5em;
 	font-family: Yrsa, "PT Sans", Helvetica, Arial;
@@ -201,26 +203,36 @@ article blockquote {
 	font-family: "PT Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial;
     background: #eee;
     border: 0.1em dotted #ddd;
+    border-left: 3px solid;
 }
 
 article code {
-    font-size: 0.9em;
-    font-family: "PT Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial;
-    background: #efc;
-    border-bottom: 1px dotted #ad9;
+	font-family: 'Ubuntu Mono',monospace;
+	font-weight: normal;
+	padding:2px 4px;
+	font-size:90%;
+	color:#333;
+	background-color:#ebe4f3;
+	border-radius:4px
 }
 
 article pre {
-    margin: 1.2em 0 0.4em 0;
-    padding: 0.5em;
-    line-height: 1.4em;
-    font-size: 1.0em;
-    color: #555;
+	font-family:'Ubuntu Mono',monospace;   
+	display:block;
+	padding:10.5px;
+	margin:0 0 11px;
     overflow: auto;
-    background-color: #fcfcfa;
-    padding: 1em;
-    border: 1px solid #ecebea;
+	font-size:15px;
+	line-height:1.428571429;
+	word-break:break-all;
+	word-wrap:break-word;
+	color:#333333;
+	background-color:rgba(0,0,0,0.025);
+	border:1px solid transparent;
+	border-radius:4px
 }
+
+article 
 
 article img {
 	display: block;
@@ -241,8 +253,6 @@ article img.right { float: right; }
 article img.center { display: block; margin-bottom: 1.0em; }
 article img.explanation { margin-bottom:1em; }
 
-
-
 article abbr {
     border-bottom: 0.1em dotted #666;
 }
@@ -251,7 +261,7 @@ footer {
     clear: both;
     text-align: left;
     margin: 3em auto 0;
-    font-size: 0.8em;
+    font-size: 14px;
     column-count: 1;
     border-top: 0.1em #333 solid;
 }
@@ -306,6 +316,7 @@ footer div ul li a:hover {
 table {
     margin: 0.5em 0;
 }
+
 table table {
     margin: 0;
 }
@@ -328,6 +339,7 @@ td, th {
 td table td {
     font-size: 1em;
 }
+
 td table tr:last-child td {
     border-bottom: 0;
 }
@@ -406,4 +418,3 @@ td:first-child, th:first-child {
 .highlight .vg { color: #268bd2 } /* Name.Variable.Global */
 .highlight .vi { color: #268bd2 } /* Name.Variable.Instance */
 .highlight .il { color: #2aa198 } /* Literal.Number.Integer.Long */
-
